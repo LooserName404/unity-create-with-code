@@ -2,12 +2,13 @@
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 15.0f;
-    private float turnSpeed = 40.0f;
+    [SerializeField] private float speed = 15.0f;
+    [SerializeField] private float turnSpeed = 40.0f;
+    
     private float horizontalInput;
     private float forwardInput;
 
-    private void Update()
+    private void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");

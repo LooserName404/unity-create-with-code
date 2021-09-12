@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4013454088691853080}
   - component: {fileID: 4013454088690755032}
   - component: {fileID: 4013454088693054910}
-  - component: {fileID: -1922452682304118823}
   - component: {fileID: 1073653533952735370}
   - component: {fileID: 9018045354557420556}
   - component: {fileID: 5732749635235644852}
@@ -99,18 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &-1922452682304118823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4013454088693021464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1cb75d2ea83a784fa1513fed2f94bfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1073653533952735370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -149,6 +136,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4013454088693021464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13aa76c318bfec74ebf64b7f35644790, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
